@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7E32160427F83D33004A3A79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32160327F83D33004A3A79 /* AppDelegate.swift */; };
-		7E32160627F83D33004A3A79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32160527F83D33004A3A79 /* SceneDelegate.swift */; };
-		7E32160827F83D33004A3A79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32160727F83D33004A3A79 /* ViewController.swift */; };
-		7E32160B27F83D33004A3A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E32160927F83D33004A3A79 /* Main.storyboard */; };
 		7E32160D27F83D37004A3A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E32160C27F83D37004A3A79 /* Assets.xcassets */; };
 		7E32161027F83D37004A3A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E32160E27F83D37004A3A79 /* LaunchScreen.storyboard */; };
 		7E32161B27F83D37004A3A79 /* cy_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32161A27F83D37004A3A79 /* cy_swiftTests.swift */; };
 		7E32162527F83D37004A3A79 /* cy_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32162427F83D37004A3A79 /* cy_swiftUITests.swift */; };
 		7E32162727F83D37004A3A79 /* cy_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32162627F83D37004A3A79 /* cy_swiftUITestsLaunchTests.swift */; };
+		7E32168727F84C9D004A3A79 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 7E32168627F84C9D004A3A79 /* GRDB */; };
+		7E32169227FD75A6004A3A79 /* YLFileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32169127FD75A6004A3A79 /* YLFileManagerExtension.swift */; };
+		7E32169627FD80FA004A3A79 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32169527FD80FA004A3A79 /* DBManager.swift */; };
+		7E32169927FD83DD004A3A79 /* cy_1.0.0.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E32169827FD83DD004A3A79 /* cy_1.0.0.json */; };
+		7E32169C27FD843A004A3A79 /* CYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32169B27FD843A004A3A79 /* CYHomeViewController.swift */; };
+		7E32169F27FD846E004A3A79 /* YLIdiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32169E27FD846E004A3A79 /* YLIdiom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +41,6 @@
 /* Begin PBXFileReference section */
 		7E32160027F83D33004A3A79 /* cy_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cy_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E32160327F83D33004A3A79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E32160527F83D33004A3A79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E32160727F83D33004A3A79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E32160A27F83D33004A3A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E32160C27F83D37004A3A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E32160F27F83D37004A3A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E32161127F83D37004A3A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,11 @@
 		7E32162027F83D37004A3A79 /* cy_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cy_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E32162427F83D37004A3A79 /* cy_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cy_swiftUITests.swift; sourceTree = "<group>"; };
 		7E32162627F83D37004A3A79 /* cy_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cy_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E32169127FD75A6004A3A79 /* YLFileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLFileManagerExtension.swift; sourceTree = "<group>"; };
+		7E32169527FD80FA004A3A79 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		7E32169827FD83DD004A3A79 /* cy_1.0.0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cy_1.0.0.json; sourceTree = "<group>"; };
+		7E32169B27FD843A004A3A79 /* CYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYHomeViewController.swift; sourceTree = "<group>"; };
+		7E32169E27FD846E004A3A79 /* YLIdiom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLIdiom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E32168727F84C9D004A3A79 /* GRDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,10 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				7E32160327F83D33004A3A79 /* AppDelegate.swift */,
-				7E32160527F83D33004A3A79 /* SceneDelegate.swift */,
-				7E32160727F83D33004A3A79 /* ViewController.swift */,
-				7E32160927F83D33004A3A79 /* Main.storyboard */,
+				7E32167D27F8417C004A3A79 /* module */,
+				7E32168327F8439C004A3A79 /* util */,
 				7E32160C27F83D37004A3A79 /* Assets.xcassets */,
+				7E32169727FD83A2004A3A79 /* resource */,
 				7E32160E27F83D37004A3A79 /* LaunchScreen.storyboard */,
 				7E32161127F83D37004A3A79 /* Info.plist */,
 			);
@@ -127,6 +133,88 @@
 			path = cy_swiftUITests;
 			sourceTree = "<group>";
 		};
+		7E32167D27F8417C004A3A79 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				7E32169A27FD8419004A3A79 /* home */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		7E32168327F8439C004A3A79 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				7E32169327FD80E1004A3A79 /* Manager */,
+				7E32168D27FD739C004A3A79 /* extension */,
+				7E32168427F84441004A3A79 /* protocol */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		7E32168427F84441004A3A79 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		7E32168D27FD739C004A3A79 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E32169027FD756B004A3A79 /* FileManager */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		7E32169027FD756B004A3A79 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				7E32169127FD75A6004A3A79 /* YLFileManagerExtension.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		7E32169327FD80E1004A3A79 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7E32169427FD80EB004A3A79 /* DB */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7E32169427FD80EB004A3A79 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				7E32169527FD80FA004A3A79 /* DBManager.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		7E32169727FD83A2004A3A79 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				7E32169827FD83DD004A3A79 /* cy_1.0.0.json */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		7E32169A27FD8419004A3A79 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				7E32169B27FD843A004A3A79 /* CYHomeViewController.swift */,
+				7E32169D27FD8455004A3A79 /* model */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		7E32169D27FD8455004A3A79 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7E32169E27FD846E004A3A79 /* YLIdiom.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +231,9 @@
 			dependencies = (
 			);
 			name = cy_swift;
+			packageProductDependencies = (
+				7E32168627F84C9D004A3A79 /* GRDB */,
+			);
 			productName = cy_swift;
 			productReference = 7E32160027F83D33004A3A79 /* cy_swift.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +306,9 @@
 				Base,
 			);
 			mainGroup = 7E3215F727F83D33004A3A79;
+			packageReferences = (
+				7E32168527F84C9D004A3A79 /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+			);
 			productRefGroup = 7E32160127F83D33004A3A79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +327,7 @@
 			files = (
 				7E32161027F83D37004A3A79 /* LaunchScreen.storyboard in Resources */,
 				7E32160D27F83D37004A3A79 /* Assets.xcassets in Resources */,
-				7E32160B27F83D33004A3A79 /* Main.storyboard in Resources */,
+				7E32169927FD83DD004A3A79 /* cy_1.0.0.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +352,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E32160827F83D33004A3A79 /* ViewController.swift in Sources */,
+				7E32169627FD80FA004A3A79 /* DBManager.swift in Sources */,
+				7E32169C27FD843A004A3A79 /* CYHomeViewController.swift in Sources */,
 				7E32160427F83D33004A3A79 /* AppDelegate.swift in Sources */,
-				7E32160627F83D33004A3A79 /* SceneDelegate.swift in Sources */,
+				7E32169227FD75A6004A3A79 /* YLFileManagerExtension.swift in Sources */,
+				7E32169F27FD846E004A3A79 /* YLIdiom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +393,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7E32160927F83D33004A3A79 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E32160A27F83D33004A3A79 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7E32160E27F83D37004A3A79 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -444,9 +532,9 @@
 				INFOPLIST_FILE = cy_swift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,9 +560,9 @@
 				INFOPLIST_FILE = cy_swift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -604,6 +692,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E32168527F84C9D004A3A79 /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E32168627F84C9D004A3A79 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E32168527F84C9D004A3A79 /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7E3215F827F83D33004A3A79 /* Project object */;
 }
